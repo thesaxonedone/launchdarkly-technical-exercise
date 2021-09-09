@@ -11,11 +11,11 @@ git pull https://github.com/thesaxonedone/launchdarkly-technical-exercise
 ```console
 npm install
 ```   
-3.  Run the application
+3.  Run the application and note the output
 ```console
 node index.js
 ```
-4.  Modify the user->key attribute to 'user2' to see the feature be excluded due to my basic implementation of targeting
+4.  Modify the user->key attribute to 'user2' and run the application via ```node index.js``` again to see the feature be excluded due to my basic implementation of targeting, and note the output
 
 i.e. change
 ```javascript 
