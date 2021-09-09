@@ -8,7 +8,7 @@ These steps assume you have a working install of NodeJS.   If not you will need 
 git pull https://github.com/thesaxonedone/launchdarkly-technical-exercise
 ```   
 2.  cd to that directory and install package dependencies
-```concolse
+```console
 npm install
 ```   
 3.  Run the application
