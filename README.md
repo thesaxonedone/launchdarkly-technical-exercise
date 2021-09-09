@@ -1,7 +1,7 @@
 # launchdarkly-technical-exercise
 Steps to run:
 
-These steps assume you have a working install of NodeJS.   If not you will need to install NodeJS and appropriately integrate it with your shell/terminal program
+These steps assume you have a working install of NodeJS.   If not, you will need to install NodeJS and appropriately integrate it with your shell/terminal program
 
 1.   From terminal, pull down repo to a directory of your choosing
 ```console
@@ -29,7 +29,7 @@ var user = {
 to
 ```javascript
 var user = {
-  key: 'user1',
+  key: 'user2',
   custom: {
     groups: 'beta_testers'
   }
