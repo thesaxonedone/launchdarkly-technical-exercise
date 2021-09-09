@@ -15,5 +15,23 @@ npm install
 ```console
 node index.js
 ```
-4.  Modify the user->key attribute to 'user2' to see the feature be excluded due to my basic implementation of targeting 
+4.  Modify the user->key attribute to 'user2' to see the feature be excluded due to my basic implementation of targeting
 
+i.e. change
+```javascript 
+var user = {
+  key: 'user1',
+  custom: {
+    groups: 'beta_testers'
+  }
+};
+```
+to
+```javascript
+var user = {
+  key: 'user1',
+  custom: {
+    groups: 'beta_testers'
+  }
+};
+```
