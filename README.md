@@ -45,7 +45,7 @@ as well as the feature flag that needs to be re-created by the user.**
 
 The API docs indicated that the mobile SDK keys are for read-only operations (https://apidocs.launchdarkly.com/#section/Overview)
 and therefore represent minimal security risk in this demo application that contains no sensitive data - or at least that is my
-assessment.  If there is something I am missing such that this key being embedded is a problem, let me know.
+assessment.  Consequently, I have left my SDK keys embedded in the github repo so that you can see my implementation.  If there is something I am missing such that this key being embedded is a problem, let me know.
 
 If you do in fact want to change over to using your own Launchdarkly environment, then you will need to do the following
 1.  Replace the SDK key in line 3 of index.js to your own SDK key
