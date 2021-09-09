@@ -2,7 +2,7 @@
 var LaunchDarkly = require('launchdarkly-node-server-sdk');
 var ldclient = LaunchDarkly.init('sdk-d9ea449d-7652-431d-a8fa-9275875a8013');
 var user = {
-  key: 'user1',
+  key: 'user2',
   custom: {
     groups: 'beta_testers'
   }
@@ -25,7 +25,8 @@ ldclient.once('ready', function() {
     if (showFeature === true) {
       console.log('This text represents a new feature for which we are implementing feature flagging.  ' +
         'This text should only appear if we are user Ruby Rod (user key of \'user1\'), due to my basic ' +
-        'implementation of targeting...');
+        'implementation of targeting.   Edit the index.js file and change the user key to user2 and see this text ' +
+        'disappear upon a subsequent run of the program');
     }
   });
   ldclient.flush(function() {
