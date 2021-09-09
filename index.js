@@ -2,7 +2,7 @@
 var LaunchDarkly = require('launchdarkly-node-server-sdk');
 var ldclient = LaunchDarkly.init('sdk-d9ea449d-7652-431d-a8fa-9275875a8013');
 var user = {
-  key: 'user2',
+  key: 'user1',
   custom: {
     groups: 'beta_testers'
   }
